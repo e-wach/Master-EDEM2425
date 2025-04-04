@@ -1,15 +1,6 @@
 # 3
-## Lo de las potencias entiendo que habría que moficar las funciones dentro de cada subclase, 
-'''
-Para la parte de "salvo que algunos deben tener más potencia que otros", 
-entiendo que habría que moficar las funciones de arrancar, parar, acelerar para tener en cuenta la potencia de cada tipo de automóvil.
-Por ejemplo (coche):
-def arrancar(self):
-        self.velocidad = 10 => multiplicarlo por un valor para señalar que es más potente?
 
-No sé muy bien qué criterio seguir...
-'''
-from entregable52 import Automovil
+from MODULE_1.PYTHON.SESSION_5.entregable_5a import Automovil
 
 class Coche(Automovil):
     n_plazas:int

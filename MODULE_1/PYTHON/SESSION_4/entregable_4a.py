@@ -1,4 +1,4 @@
-from entregable3primo import esPrimo
+from SESSION_3.entregable_3b import esPrimo
 
 # 1 A partir de las respuestas de los dos últimos ejercicios de la Sesión 3:
 ## 1
@@ -20,10 +20,11 @@ numberPrimo(number)
 
 
 ## 3
-from entregable3bisiesto import esBisiesto
-anyo = int(input('Introduce un año: '))
+from SESSION_3.entregable_3b import esBisiesto
 
-def anyoBisiesto(anyo):
-    esBisiesto(anyo)
+year = int(input('Introduce un año: '))
 
-anyoBisiesto(anyo)
+def yearBisiesto(year):
+    esBisiesto(year)
+
+yearBisiesto(year)

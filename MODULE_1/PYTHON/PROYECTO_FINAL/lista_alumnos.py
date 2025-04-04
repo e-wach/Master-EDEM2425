@@ -1,44 +1,44 @@
 lista_alumnos = []
 
 alumno1 = {
-    "Nombre": "Ting",
-    "Apellidos": "Wang",
+    "Nombre": "Sam",
+    "Apellidos": "Smith",
     "NIF": "1234567A",
     "Teléfono": "444666888",
-    "email":"tiwach@edem.es",
+    "email":"sasmi@edem.es",
     "Aprobado": True
     }
 
 alumno2 = {
-     "Nombre": "Chao",
-    "Apellidos": "Wang",
+     "Nombre": "Joe",
+    "Apellidos": "Doe",
     "NIF": "1234567B",
     "Teléfono": "123456789",
-    "email":"chwa@edem.es",
+    "email":"jodo@edem.es",
     "Aprobado": True
 }
 
 
 alumno3 = {
-    "Nombre": "Damian",
-    "Apellidos": "Kalschnee",
+    "Nombre": "Jane",
+    "Apellidos": "Doe",
     "NIF": "1234567C",
     "Teléfono": "987654321",
-    "email":"dakals@edem.es",
+    "email":"jado@edem.es",
     "Aprobado": True
 }
 
 alumno4 = {
-    "Nombre": "Klara",
-    "Apellidos": "Kalschnee",
+    "Nombre": "John",
+    "Apellidos": "Smith",
     "NIF": "1234567D",
     "Teléfono": "888666444",
-    "email":"klakals@edem.es",
+    "email":"josmi@edem.es",
     "Aprobado": True
 }
 
 alumno5 = {
-    "Nombre": "John",
+    "Nombre": "Dave",
     "Apellidos": "Doe",
     "NIF": "1234567E",
     "Teléfono": "111111111",

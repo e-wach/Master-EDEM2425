@@ -1,0 +1,7 @@
+# MODULE 1: FUNDAMENTALS
+
+Linux
+GitHub
+Python
+DOCKER
+SQL
