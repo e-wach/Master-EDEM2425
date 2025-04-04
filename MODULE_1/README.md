@@ -28,6 +28,7 @@ This module focuses on the core foundations needed to work with data and cloud t
 
 ## 📂 What You Can Find in This Folder
 
-- 🐍 [**Python Deliverables and Notes**](PYTHON) – Exercises and assignments completed during the module and my personal notes compiling the basics of programming with Python
-- 🐳 [**Docker Notes**](DOCKER/Notes) – Personal notes summarizing the most important Docker concepts and commands  
-- 🧠 [**SQL Notes**](SQL/Notes) – Personal notes compiling key SQL syntax and query patterns
+- 🐍 [**Python Deliverables and Notes**](PYTHON) – Exercises and assignments completed during the module and my personal notes compiling the basics of programming with Python.
+- 🐳 [**Docker Notes**](DOCKER/Notes) – Personal notes summarizing the most important Docker concepts and commands.<br>
+    _** During [Module 2](./MODULE_2), we deployed almost every tool and platform with a docker compose._
+- 🧠 [**SQL Notes**](SQL/Notes) – Personal notes compiling key SQL syntax and query patterns.
