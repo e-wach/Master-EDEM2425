@@ -3,7 +3,7 @@
 This module focuses on the core foundations needed to work with data and cloud technologies. It was the starting point of my Master's in Big Data and Cloud, where I gained hands-on experience with essential tools and concepts.
 
 
-## ✅ What I have Learned
+## ✅ What I Learned
 
 ### 🐧 Linux  
 - Terminal navigation  
