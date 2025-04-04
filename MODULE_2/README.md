@@ -34,5 +34,5 @@ This module focused on modern tools and techniques for processing data efficient
 
 ## 📂 What You Can Find in This Folder
 
-- 📬 **Kafka Assignment** – Main assignment using Confluent Kafka (Docker). A streaming pipeline using Kafka with a producer that sends movie data in JSON format to a topic. A consumer processes the data and filters it and sends it to a new topic. Additionally, KSQL is used to create a stream for real-time querying of the filtered data.
-- ⚡ **PySpark Assignment** – A data analysis project multiple datasets, including data cleaning, joins, aggregations, and correlations. The final results were also loaded into a MySQL database as part of the pipeline.
+- 📬 [**Kafka Assignment**](KAFKA) – Main assignment using Confluent Kafka (Docker). A streaming pipeline using Kafka with a producer that sends movie data in JSON format to a topic. A consumer processes the data and filters it and sends it to a new topic. Additionally, KSQL is used to create a stream for real-time querying of the filtered data.
+- ⚡ [**PySpark Assignment**](PYSPARK) – A data analysis project multiple datasets, including data cleaning, joins, aggregations, and correlations. The final results were also loaded into a MySQL database as part of the pipeline.
