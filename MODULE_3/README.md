@@ -27,4 +27,4 @@ This module focused on major cloud platforms and tools, providing hands-on exper
 - 🌐 **GCP Deliverables** – Assignments using GCP resources
 - 🌩️ **AWS Deliverables** – Exercises working with AWS resources
 
-For a more elaborated data project using **GCP** and **Terraform**, check out **[Data Project 2](./DATA_PROJECTS)**, where I implemented a fully automated cloud data pipeline.
+For a more elaborated data project using **GCP** and **Terraform**, check out **[Data Project 2](https://github.com/e-wach/Master-EDEM2425/tree/main/DATA_PROJECTS#data-project-2-cloud)**, where I implemented a fully automated cloud data pipeline.
