@@ -47,3 +47,7 @@ The project includes a **cloud-based** architecture built with **Google Cloud Pl
 
 ### 🔗 See More
 To see the full project and code, access the [repository here](https://github.com/joel1091/Data-Project-02)!
+
+## Data Project 3 (integrating AI)
+
+Due in May!
