@@ -1,6 +1,3 @@
-# Master-EDEM2425
-
-
 # 🎓 Master in Big Data & Cloud – My Learning Journey 🌟
 Hey there! 👋 Welcome to my personal repository for **the Master's Big Data & Cloud at EDEM** (Valencia, Spain). Here, I’ve organized everything I’ve learned into modules, with hands-on assignments, notes, and projects as I progress through the course.
 
