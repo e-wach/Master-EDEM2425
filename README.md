@@ -22,7 +22,11 @@ This module introduced how to work with data pipelines and processing frameworks
 The focus here was to design and deploy scalable solutions using cloud platforms like **GCP, AWS, and Azure**. We also learned how to automate infrastructure management using **Terraform** and apply CI/CD principles with **GitHub Actions**. Most cloud assignments used Terraform for reproducibility and scalability.
 
 ### [Data Projects](DATA_PROJECTS)
-A separate folder dedicated to more advanced projects, showcasing larger-scale work involving multiple tools and technologies. These projects go beyond individual assignments and explore real-world applications.
+A separate folder dedicated to more advanced projects, showcasing larger-scale work involving multiple tools and technologies. These projects go beyond individual assignments and explore real-world applications. Here is a brief description of each!:
+- **Data Project 1**: Developed a fully dockerized on-premise data pipeline that integrated APIs for data ingestion, used Python for transformation, and stored the processed data in PostgreSQL. Built an interactive UI with Streamlit to visualize and interact with the data.
+- **Data Project 2**: Designed and deployed a fully cloud-based platform on GCP using Terraform. The application connects individuals affected by the DANA in Valencia with volunteers. It automates the matching process based on location, type of aid, and urgency, optimizing resource distribution and response times. The system leverages GCP services for data processing, storage, and scalability.
+
+---
 
 Feel free to explore the modules and see what I've been up to! 🌱 
 
