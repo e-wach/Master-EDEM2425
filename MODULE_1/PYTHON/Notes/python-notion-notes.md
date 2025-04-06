@@ -232,10 +232,6 @@ print(saludo) *=> nombre cambia a Chao (se ha reescrito nombre)*
 ```
 
 ## Listas
-
-> Cheatsheet: https://master-data-python.vercel.app/7-cheat-sheets-de-python/1-tipos-de-datos/5-cheat-sheet-trabajando-con-listas-en-python/
-> 
-
 ```python
 lista_clase = ['Ting','Chao','Eric']
 print(lista_clase[1]) *=> Chao*
@@ -323,9 +319,6 @@ print(f"la nota en el examen es de {nota_examen_2}")
 
 ## Diccionarios
 
-> Cheatsheet https://master-data-python.vercel.app/7-cheat-sheets-de-python/1-tipos-de-datos/4-cheat-sheet-trabajando-con-diccionarios-en-python/
-> 
-
 ```python
 # Definición de alumno > Diccionario
 
@@ -373,9 +366,6 @@ alumno_2= {
 
 ## Rangos
 
-> Cheatsheet https://master-data-python.vercel.app/7-cheat-sheets-de-python/1-tipos-de-datos/8-cheat-sheet-trabajando-con-rangos-en-python/
-> 
-
 ```python
 rango = range(5)
 print(rango) # Salida range(0, 5)
@@ -394,9 +384,6 @@ print(rango_flotante)  # Salida: [0.0, 0.5, 1.0, 1.5, ..., 4.5]
 ```
 
 ## Sets
-
-> Cheatsheet: https://master-data-python.vercel.app/7-cheat-sheets-de-python/1-tipos-de-datos/6-cheat-sheet-trabajando-con-sets-en-python/
-> 
 
 Las listas se pueden convertir en sets. La diferencia entre ellas es que las listas van ordenadas, mientras que los sets no.
 
@@ -631,9 +618,6 @@ while True:
 ```
 
 ## Funciones
-
-> Cheatsheet https://master-data-python.vercel.app/7-cheat-sheets-de-python/3-funciones-y-parametros/1-cheat-sheet-trabajando-con-funciones-y-parametros-en-python/
-> 
 
 Las funciones son un conjunto de sentencias/instrucciones aisladas/encapsuladas que permiten la reutilización de código de una tarea específica y recurrente.
 Ejemplo: *Encontrar la media de precio de una lista de elementos* ⇒ crear una función reutilizable que reciba una lista indefinida y que obtenga la media del precio y lo devuelva a quien se lo hubiera pedido.
@@ -972,9 +956,6 @@ print(f'Tu edad el año que viene es {edad + 1} años')
 ```
 
 ## DateTime
-
-> Cheatsheet: https://master-data-python.vercel.app/7-cheat-sheets-de-python/1-tipos-de-datos/9-cheat-sheet-trabajo-con-fechas-y-horarios-en-python/
-> 
 
 **Fecha y hora:**
 
@@ -1375,8 +1356,6 @@ df.to_parquet('datos.parquet')
 ```
 
 ### Crear un CSV a partir de un DataFrame
-
-https://master-data-python.vercel.app/8-cheat-sheets-de-librerias-de-interes/1-analisis-de-datos/1-cheat-sheet-de-pandas/
 
 ```python
 df.to_csv('salida.csv', index=False)
