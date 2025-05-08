@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Nuevo Producto</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #c8d5b9; color: #333; }
+        .container { max-width: 600px; margin: auto; padding: 20px; text-align: center; }
+        h1 { color: #6a8f6b; font-size: 28px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        form { background: #f0ead2; border-radius: 10px; padding: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        label { display: block; margin: 10px 0; }
+        input, button { padding: 10px; width: 100%; border-radius: 5px; margin: 5px 0; }
+        button { background-color: #a3b18a; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #6a8f6b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Añadir Nuevo Producto</h1>
+        <form action="/postProduct" method="POST">
+            <label for="name">Nombre del Producto</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="price">Precio</label>
+            <input type="number" name="price" id="price" step="0.01" required>
+
+            <label for="image_url">Imagen URL</label>
+            <input type="text" name="image_url" id="image_url" required>
+
+            <button type="submit">Añadir Producto</button>
+        </form>
+    </div>
+</body>
+</html>

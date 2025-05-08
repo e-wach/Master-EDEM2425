@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Vinilos</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #c8d5b9; color: #333; }
+        .container { max-width: 100%; margin: auto; padding: 20px; text-align: center; }
+        h1 { color: #6a8f6b; font-size: 28px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        .items { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .item { background: #f0ead2; border-radius: 10px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width: 250px; text-align: center; transition: transform 0.2s; }
+        .item:hover { transform: scale(1.05); }
+        .item img { width: 100%; border-radius: 10px; }
+        .item h3 { margin-top: 10px; color: #6a8f6b; }
+        .buy-btn { background-color: #a3b18a; color: white; border: none; padding: 10px 15px; border-radius: 25px; cursor: pointer; margin-top: 10px; display: flex; align-items: center; justify-content: center; gap: 5px; font-size: 16px; }
+        .buy-btn:hover { background-color: #6a8f6b; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍃 Catálogo de Vinilos 🍃</h1>
+        <div class="items">
+            {% for item in items %}
+                <div class="item">
+                    <img src="{{ item.image_url }}" alt="{{ item.name }}">
+                    <h3>{{ item.name }}</h3>
+                    <p>{{ item.price }} €</p>
+                    
+                    <form action="/postOrder" method="POST">
+                        <input type="hidden" name="name" value="{{ item.name }}">
+                        <input type="hidden" name="price" value="{{ item.price }}">
+
+                        <input type="number" name="quantity" value="1" min="1" required>
+
+                        <button class="buy-btn" type="submit">🛍️ Comprar</button>
+                    </form>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
