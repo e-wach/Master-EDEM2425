@@ -7,26 +7,35 @@ Data Projects were evaluated on two main aspects:
 1. **Business**: originality, presentation, business feasibility and adequacy to the requirements
 2. **Technology**: Architecture design, suitability of the pieces, technical implementation and justification of the decisions.
 
+## Data Project 3 (integrating AI)
 
-## Data Project 1 (on-premise)
 ### 🔍 Challenge
-_Due to the recent incidents (i.e., DANA), Valencia's city council is forecasting a rise in housing prices, but how do we know where they are going to rise the most? Can we predict where people will want to live in the future?_
+We were asked to design a chatbot powered by APIs and any additional tools of our choice. It was an open challenge focused on creativity, integration, and real-world application.
 
 ### 🎯 Project Objective
-The project's objective was to create an interactive platform with dynamic maps that integrates key data (such as essential services, green areas, pulbic transport and market places), allowing the user to compare areas accoridng to quality of life. The aim was to help them make informed housing decisions.
+Our goal was to build **BetMaestro**, a smart assistant that helps users make informed decisions when betting on NBA games. The chatbot leverages real-time data and predictive models to deliver insights and recommendations.
 
 ### 📄 Project Description
-This project was developed as an **on-premise**, **fully dockerized** solution to support informed housing decisions through data-driven insights. We extracted and processed various datasets using Python, storing the cleaned data in a PostgreSQL database.
-<br>
-To present the information in a user-friendly way, we built an interactive Streamlit application that visualizes dynamic maps and key indicators directly from the database.
+BetMaestro is a fully integrated, end-to-end data and AI solution. It gathers and processes data from multiple sports-related APIs, runs predictive models, and serves insights through a conversational interface.
 
+Key highlights of the project:
+
+- Backend: Built with Flask APIs for real-time data ingestion and AI-driven predictions
+
+- Cloud Infrastructure: Deployed on Google Cloud Platform using services like Pub/Sub, BigQuery, and Cloud SQL – all managed via Terraform
+
+- Data Sources: Integrated external APIs such as SportsData.io and TheOddsAPI to feed the system with up-to-date NBA data (games, odds, injuries)
+
+- AI/ML: Custom models and agent-based logic to analyze patterns and support decision-making
+
+With BetMaestro, we aimed to turn complex sports data into actionable insights and deliver an intuitive user experience that connects data, AI, and real-life use cases.
 
 <p align="center"> 
-<img src="img/dataproject1.png" height="350">
+<img src="img/dataproject3.jpg" height="350">
 </p>
 
 ### 🔗 See More
-To see the full project and code, access the [repository here](https://github.com/Marcanta7/DATAPROJECT1)!
+To see the full project and code, access the [repository here](https://github.com/e-wach/Data-IA-Project-3)!
 
 ## Data Project 2 (cloud)
 
@@ -48,6 +57,23 @@ The project includes a **cloud-based** architecture built with **Google Cloud Pl
 ### 🔗 See More
 To see the full project and code, access the [repository here](https://github.com/joel1091/Data-Project-02)!
 
-## Data Project 3 (integrating AI)
+## Data Project 1 (on-premise)
+### 🔍 Challenge
+_Due to the recent incidents (i.e., DANA), Valencia's city council is forecasting a rise in housing prices, but how do we know where they are going to rise the most? Can we predict where people will want to live in the future?_
 
-Due in May!
+### 🎯 Project Objective
+The project's objective was to create an interactive platform with dynamic maps that integrates key data (such as essential services, green areas, pulbic transport and market places), allowing the user to compare areas accoridng to quality of life. The aim was to help them make informed housing decisions.
+
+### 📄 Project Description
+This project was developed as an **on-premise**, **fully dockerized** solution to support informed housing decisions through data-driven insights. We extracted and processed various datasets using Python, storing the cleaned data in a PostgreSQL database.
+<br>
+To present the information in a user-friendly way, we built an interactive Streamlit application that visualizes dynamic maps and key indicators directly from the database.
+
+
+<p align="center"> 
+<img src="img/dataproject1.png" height="350">
+</p>
+
+### 🔗 See More
+To see the full project and code, access the [repository here](https://github.com/Marcanta7/DATAPROJECT1)!
+
