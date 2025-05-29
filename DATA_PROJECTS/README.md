@@ -30,7 +30,7 @@ Key highlights of the project:
 
 With BetMaestro, we aimed to turn complex sports data into actionable insights and deliver an intuitive user experience that connects data, AI, and real-life use cases.
 
-The project includes a **cloud-based** architecture built with **Google Cloud Platform (GCP)** and managed fully using **Terraform** for IaC.  Key services can be seen in the **architecture** below:
+Key services can be seen in the **architecture** below:
 
 <p align="center"> 
 <img src="img/dataproject3.jpg" height="450">
