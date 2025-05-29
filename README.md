@@ -22,6 +22,7 @@ The focus here was to design and deploy scalable solutions using cloud platforms
 A separate folder dedicated to more advanced projects, showcasing larger-scale work involving multiple tools and technologies. These projects go beyond individual assignments and explore real-world applications. Here is a brief description of each!:
 - **Data Project 1**: Developed a fully dockerized on-premise data pipeline that integrated APIs for data ingestion, used Python for transformation, and stored the processed data in PostgreSQL. Built an interactive UI with Streamlit to visualize and interact with the data.
 - **Data Project 2**: Designed and deployed a fully cloud-based platform on GCP using Terraform. The application connects individuals affected by the DANA in Valencia with volunteers. It automates the matching process based on location, type of aid, and urgency, optimizing resource distribution and response times. The system leverages GCP services for data processing, storage, and scalability.
+- **Data/AI Project 3**: Designed and deployed a fully cloud-based application on GCP using Terraform. We created BetMaestro, a smart assistant that helps users make informed decisions when betting on NBA games. The chatbot leverages real-time data and predictive models to deliver insights and recommendations. It is a fully integrated end to end solution that gathers and processes data from multiple sports-related APIs, runs predictive models, and serves insights through a conversational interface.
 
 ---
 
